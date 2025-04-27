@@ -1,0 +1,55 @@
+#clock{
+    height: 400px;
+    width: 400px;
+    margin: 100px auto;
+    background-color: red;
+    background-image: url(8-analog-clock-images/clock.jpeg);
+    position: relative; 
+    background-size: cover;
+
+}
+#hr{
+    height: 125px;
+    width: 7px;
+    background-color: rgb(59, 39, 39);
+    position: absolute;
+   top: 70px;
+   left:200px;
+   transform-origin: bottom;
+}
+#min{
+    height: 125px;
+    width: 4px;
+    background-color: rgb(0, 47, 255);
+    position: absolute;
+   top: 70px;
+   left:200px;
+   transform-origin: bottom;
+
+  
+}
+#sec{
+    height: 125px;
+    width: 2px;
+    background-color:red;
+    position: absolute;
+   top: 70px;
+   left:200px;
+   transform-origin: bottom;
+
+}
+#ac{
+    padding: 18px;
+    position: absolute;
+top:60%;
+left: 35%;
+background-color:black;
+color: white;}
+#center{
+    border-radius: 100%;
+    position: absolute;
+top:47%;
+left: 49%;
+background-color:black;
+height: 15px;
+width:15px;}
